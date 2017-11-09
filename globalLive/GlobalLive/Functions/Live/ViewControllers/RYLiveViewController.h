@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RYLiveViewController.h
 //  globalLive
 //
 //  Created by Ryeagler on 2017/11/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RYLiveViewController : UIViewController
 
 @end
-
