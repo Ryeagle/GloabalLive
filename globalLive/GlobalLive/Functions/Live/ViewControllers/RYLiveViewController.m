@@ -9,7 +9,7 @@
 #import "RYLiveViewController.h"
 #import "GLLivePlayView.h"
 
-@interface RYLiveViewController ()
+@interface RYLiveViewController ()<GLLiveControlDelegate>
 @property (nonatomic, strong) UIView *liveContainerView;
 @property (nonatomic, strong) GLLivePlayView *playView;
 @end
@@ -47,10 +47,20 @@
         make.top.left.equalTo(self.view);
     }];
     
-    self.playView = [[GLLivePlayView alloc] init];
     self.playView.fatherView = self.liveContainerView;
 }
 
+
+#pragma mark - GLLiveControlDelegate
+
+- (void)playControl:(id)playControl actionEvent:(NSString *)actionEvent
+{
+    if ([actionEvent isEqualToString:kLiveControlBackAction]) {
+        if (![RYLiveManager sharedInstance].isFullScreen) {
+            [[RYLiveManager sharedInstance] quitLive];
+        }
+    }
+}
 
 #pragma mark - Getter & Setter
 
@@ -63,4 +73,12 @@
     return _liveContainerView;
 }
 
+- (GLLivePlayView *)playView
+{
+    if (!_playView) {
+        _playView = [[GLLivePlayView alloc] init];
+        _playView.playViewDelegate = self;
+    }
+    return _playView;
+}
 @end

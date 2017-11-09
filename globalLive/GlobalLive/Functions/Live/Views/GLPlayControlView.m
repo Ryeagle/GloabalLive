@@ -152,14 +152,14 @@
 - (void)backAction
 {
     if (self.liveControlDelegate && [self.liveControlDelegate respondsToSelector:@selector(playControl:actionEvent:)]) {
-        [self.liveControlDelegate playControl:self actionEvent:LiveControlBackAction];
+        [self.liveControlDelegate playControl:self actionEvent:kLiveControlBackAction];
     }
 }
 
 - (void)fullScreenAction
 {
     if (self.liveControlDelegate && [self.liveControlDelegate respondsToSelector:@selector(playControl:actionEvent:)]) {
-        [self.liveControlDelegate playControl:self actionEvent:LiveControlFullScreenAction];
+        [self.liveControlDelegate playControl:self actionEvent:kLiveControlFullScreenAction];
     }
 }
 

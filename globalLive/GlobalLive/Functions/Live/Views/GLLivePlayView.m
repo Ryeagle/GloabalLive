@@ -44,23 +44,16 @@
 
 - (void)playControl:(id)playControl actionEvent:(NSString *)actionEvent
 {
-    if ([actionEvent isEqualToString:LiveControlBackAction]) {
+    if ([actionEvent isEqualToString:kLiveControlBackAction]) {
         if (self.isFullSreen) {
             [self fullScreenAction];
         } else {
-            UIWindow *window = [[UIApplication sharedApplication].delegate window];
-            UIViewController *vc = [window ryGetCurrentViewController];
-            [vc dismissViewControllerAnimated:YES completion:^{
-                if (self) {
-                    [self removeFromSuperview];
-                }
-            }];
+            if (self.playViewDelegate && [self.playViewDelegate respondsToSelector:@selector(playControl:actionEvent:)]) {
+                [self.playViewDelegate playControl:self actionEvent:actionEvent];
+            }
         }
-    } else if ([actionEvent isEqualToString:LiveControlFullScreenAction]) {
+    } else if ([actionEvent isEqualToString:kLiveControlFullScreenAction]) {
         [self fullScreenAction];
-    }
-    if (self.playViewDelegate && [self.playViewDelegate respondsToSelector:@selector(playControl:actionEvent:)]) {
-        [self.playViewDelegate playControl:self actionEvent:actionEvent];
     }
 }
 

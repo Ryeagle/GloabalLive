@@ -9,8 +9,8 @@
 #ifndef GLLiveProtocol_h
 #define GLLiveProtocol_h
 
-static NSString *const LiveControlBackAction = @"LiveControlBackAction";
-static NSString *const LiveControlFullScreenAction = @"LiveControlFullScreenAction";
+static NSString *const kLiveControlBackAction = @"LiveControlBackAction";
+static NSString *const kLiveControlFullScreenAction = @"LiveControlFullScreenAction";
 
 
 @protocol GLLiveControlDelegate <NSObject>

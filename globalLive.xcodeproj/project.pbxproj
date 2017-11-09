@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750B00D71FB43C2400409317 /* GLLiveWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B00D61FB43C2400409317 /* GLLiveWindow.m */; };
 		7566BF7C1FB0019B002F5843 /* GLRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF7B1FB0019B002F5843 /* GLRotateView.m */; };
 		7566BF7F1FB0366D002F5843 /* GLLivePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF7E1FB0366D002F5843 /* GLLivePlayView.m */; };
 		7566BF841FB03851002F5843 /* UIView+Ryeagle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF831FB03851002F5843 /* UIView+Ryeagle.m */; };
@@ -28,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750B00D51FB43C2400409317 /* GLLiveWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLiveWindow.h; sourceTree = "<group>"; };
+		750B00D61FB43C2400409317 /* GLLiveWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLiveWindow.m; sourceTree = "<group>"; };
+		750B00D81FB45BFA00409317 /* GLExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLExtend.h; sourceTree = "<group>"; };
 		7566BF7A1FB0019B002F5843 /* GLRotateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLRotateView.h; sourceTree = "<group>"; };
 		7566BF7B1FB0019B002F5843 /* GLRotateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLRotateView.m; sourceTree = "<group>"; };
 		7566BF7D1FB0366D002F5843 /* GLLivePlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLivePlayView.h; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 		75B2A2D81FAEF8A6001280D1 /* Extand */ = {
 			isa = PBXGroup;
 			children = (
+				750B00D81FB45BFA00409317 /* GLExtend.h */,
 				75B2A2D91FAEF8A6001280D1 /* Category */,
 				75B2A2DA1FAEF8A6001280D1 /* Constants */,
 				75B2A2DB1FAEF8A6001280D1 /* DataBase */,
@@ -289,6 +294,8 @@
 				7566BF7E1FB0366D002F5843 /* GLLivePlayView.m */,
 				7566BF851FB040E3002F5843 /* GLPlayControlView.h */,
 				7566BF861FB040E3002F5843 /* GLPlayControlView.m */,
+				750B00D51FB43C2400409317 /* GLLiveWindow.h */,
+				750B00D61FB43C2400409317 /* GLLiveWindow.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -464,6 +471,7 @@
 				75C9610B1FAF0F4200EDB6D4 /* RYUserDefaultManager.m in Sources */,
 				75C960F11FAF023100EDB6D4 /* RYFirstViewController.m in Sources */,
 				7566BF7F1FB0366D002F5843 /* GLLivePlayView.m in Sources */,
+				750B00D71FB43C2400409317 /* GLLiveWindow.m in Sources */,
 				75C961101FAF3C4D00EDB6D4 /* GLUserDefaultManager.m in Sources */,
 				75B2A2D01FAEF23C001280D1 /* main.m in Sources */,
 				75C960EE1FAF014800EDB6D4 /* RYMainTabVC.m in Sources */,

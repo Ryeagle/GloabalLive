@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Live";
     self.dataArray = @[@"EnterLive"];
     self.tableView.tableFooterView = [UIView new];
 }
@@ -59,8 +60,7 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     [cell setSelected:NO];
     
-    RYLiveViewController *liveVC = [[RYLiveViewController alloc] init];
-    [self presentViewController:liveVC animated:YES completion:nil];
+    [[RYLiveManager sharedInstance] enterLive];
 }
 
 @end
