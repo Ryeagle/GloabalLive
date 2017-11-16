@@ -1,0 +1,6 @@
+framework module Pods_globalLive {
+  umbrella header "Pods-globalLive-umbrella.h"
+
+  export *
+  module * { export * }
+}
