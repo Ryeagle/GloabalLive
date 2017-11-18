@@ -10,22 +10,20 @@
 		750B00D71FB43C2400409317 /* GLLiveWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B00D61FB43C2400409317 /* GLLiveWindow.m */; };
 		7566BF7C1FB0019B002F5843 /* GLRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF7B1FB0019B002F5843 /* GLRotateView.m */; };
 		7566BF7F1FB0366D002F5843 /* GLLivePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF7E1FB0366D002F5843 /* GLLivePlayView.m */; };
-		7566BF841FB03851002F5843 /* UIView+Ryeagle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF831FB03851002F5843 /* UIView+Ryeagle.m */; };
 		7566BF871FB040E3002F5843 /* GLPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF861FB040E3002F5843 /* GLPlayControlView.m */; };
-		7566BF8A1FB07D19002F5843 /* UIWindow+Ryeagle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7566BF891FB07D19002F5843 /* UIWindow+Ryeagle.m */; };
-		75B2A2C21FAEF23C001280D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A2C11FAEF23C001280D1 /* AppDelegate.m */; };
+		756FF06B1FBE7E8600BB2A69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756FF0691FBE7E8600BB2A69 /* AppDelegate.m */; };
+		756FF0731FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 756FF0721FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.m */; };
+		756FF0761FBEBE5800BB2A69 /* UIWindow+GlobalLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 756FF0751FBEBE5800BB2A69 /* UIWindow+GlobalLive.m */; };
+		756FF0791FBEBE8400BB2A69 /* UIView+GLobalLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 756FF0781FBEBE8400BB2A69 /* UIView+GLobalLive.m */; };
+		756FF07D1FBEC00100BB2A69 /* GLBaseUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 756FF07C1FBEC00100BB2A69 /* GLBaseUserDefault.m */; };
+		756FF0821FBEC20700BB2A69 /* TXLiteAVSDK_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756FF0811FBEC20700BB2A69 /* TXLiteAVSDK_Player.framework */; };
 		75B2A2CA1FAEF23C001280D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B2A2C91FAEF23C001280D1 /* Assets.xcassets */; };
-		75B2A2CD1FAEF23C001280D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B2A2CB1FAEF23C001280D1 /* LaunchScreen.storyboard */; };
 		75B2A2D01FAEF23C001280D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A2CF1FAEF23C001280D1 /* main.m */; };
 		75C960EE1FAF014800EDB6D4 /* RYMainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960ED1FAF014800EDB6D4 /* RYMainTabVC.m */; };
 		75C960F11FAF023100EDB6D4 /* RYFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960F01FAF023100EDB6D4 /* RYFirstViewController.m */; };
-		75C960F41FAF023C00EDB6D4 /* RYSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960F31FAF023C00EDB6D4 /* RYSecondViewController.m */; };
-		75C960F71FAF024A00EDB6D4 /* RYThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960F61FAF024A00EDB6D4 /* RYThirdViewController.m */; };
+		75C960F71FAF024A00EDB6D4 /* RYAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960F61FAF024A00EDB6D4 /* RYAccountViewController.m */; };
 		75C960FE1FAF09B000EDB6D4 /* RYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C960FD1FAF09B000EDB6D4 /* RYLiveViewController.m */; };
 		75C961011FAF0A2000EDB6D4 /* RYLiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C961001FAF0A2000EDB6D4 /* RYLiveManager.m */; };
-		75C9610B1FAF0F4200EDB6D4 /* RYUserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9610A1FAF0F4200EDB6D4 /* RYUserDefaultManager.m */; };
-		75C961101FAF3C4D00EDB6D4 /* GLUserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9610F1FAF3C4D00EDB6D4 /* GLUserDefaultManager.m */; };
-		75EF70BB1FB553630046823A /* TXLiteAVSDK_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF70BA1FB553630046823A /* TXLiteAVSDK_Player.framework */; };
 		75EF70BD1FB5539D0046823A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF70BC1FB5539D0046823A /* libresolv.tbd */; };
 		75EF70C01FB553B20046823A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF70BF1FB553AA0046823A /* CoreTelephony.framework */; };
 		75EF70C21FB553BC0046823A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF70C11FB553BC0046823A /* libiconv.tbd */; };
@@ -37,52 +35,48 @@
 		75EF70CE1FB5541C0046823A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF70CD1FB5541C0046823A /* libstdc++.tbd */; };
 		75EF70D11FB588D90046823A /* liveUrlConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EF70D01FB588D90046823A /* liveUrlConfig.plist */; };
 		75EF70D41FB58AF30046823A /* GLLiveUrlConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF70D31FB58AF30046823A /* GLLiveUrlConfig.m */; };
-		75EF70D71FB58C350046823A /* NSDictionary+Ryeagle.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF70D61FB58C350046823A /* NSDictionary+Ryeagle.m */; };
 		9645EAB40960CF4941775F10 /* Pods_globalLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC5F65FD3BEE0BB25293B8E /* Pods_globalLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		750B00D51FB43C2400409317 /* GLLiveWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLiveWindow.h; sourceTree = "<group>"; };
 		750B00D61FB43C2400409317 /* GLLiveWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLiveWindow.m; sourceTree = "<group>"; };
-		750B00D81FB45BFA00409317 /* GLExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLExtend.h; sourceTree = "<group>"; };
 		7566BF7A1FB0019B002F5843 /* GLRotateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLRotateView.h; sourceTree = "<group>"; };
 		7566BF7B1FB0019B002F5843 /* GLRotateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLRotateView.m; sourceTree = "<group>"; };
 		7566BF7D1FB0366D002F5843 /* GLLivePlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLivePlayView.h; sourceTree = "<group>"; };
 		7566BF7E1FB0366D002F5843 /* GLLivePlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLivePlayView.m; sourceTree = "<group>"; };
-		7566BF821FB03851002F5843 /* UIView+Ryeagle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Ryeagle.h"; sourceTree = "<group>"; };
-		7566BF831FB03851002F5843 /* UIView+Ryeagle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ryeagle.m"; sourceTree = "<group>"; };
 		7566BF851FB040E3002F5843 /* GLPlayControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPlayControlView.h; sourceTree = "<group>"; };
 		7566BF861FB040E3002F5843 /* GLPlayControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPlayControlView.m; sourceTree = "<group>"; };
-		7566BF881FB07D19002F5843 /* UIWindow+Ryeagle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Ryeagle.h"; sourceTree = "<group>"; };
-		7566BF891FB07D19002F5843 /* UIWindow+Ryeagle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Ryeagle.m"; sourceTree = "<group>"; };
 		7566BF8B1FB07F46002F5843 /* GLFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLFunctions.h; sourceTree = "<group>"; };
+		756FF0691FBE7E8600BB2A69 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		756FF06A1FBE7E8600BB2A69 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		756FF0711FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GlobalLive.h"; sourceTree = "<group>"; };
+		756FF0721FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GlobalLive.m"; sourceTree = "<group>"; };
+		756FF0741FBEBE5800BB2A69 /* UIWindow+GlobalLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GlobalLive.h"; sourceTree = "<group>"; };
+		756FF0751FBEBE5800BB2A69 /* UIWindow+GlobalLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GlobalLive.m"; sourceTree = "<group>"; };
+		756FF0771FBEBE8400BB2A69 /* UIView+GLobalLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GLobalLive.h"; sourceTree = "<group>"; };
+		756FF0781FBEBE8400BB2A69 /* UIView+GLobalLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GLobalLive.m"; sourceTree = "<group>"; };
+		756FF07B1FBEC00100BB2A69 /* GLBaseUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseUserDefault.h; sourceTree = "<group>"; };
+		756FF07C1FBEC00100BB2A69 /* GLBaseUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseUserDefault.m; sourceTree = "<group>"; };
+		756FF0811FBEC20700BB2A69 /* TXLiteAVSDK_Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_Player.framework; sourceTree = "<group>"; };
+		756FF0841FBEC25D00BB2A69 /* globalLive.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globalLive.pch; sourceTree = "<group>"; };
+		756FF0851FBEC71800BB2A69 /* GlobalLiveKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalLiveKit.h; sourceTree = "<group>"; };
+		75980A141FBEC7FE00E8A8AA /* GLColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLColorMacro.h; sourceTree = "<group>"; };
+		75980A151FBEC81D00E8A8AA /* GLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMacro.h; sourceTree = "<group>"; };
 		75B2A2BD1FAEF23C001280D1 /* globalLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = globalLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75B2A2C01FAEF23C001280D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		75B2A2C11FAEF23C001280D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75B2A2C91FAEF23C001280D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		75B2A2CC1FAEF23C001280D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75B2A2CE1FAEF23C001280D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B2A2CF1FAEF23C001280D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75C960EC1FAF014800EDB6D4 /* RYMainTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYMainTabVC.h; sourceTree = "<group>"; };
 		75C960ED1FAF014800EDB6D4 /* RYMainTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYMainTabVC.m; sourceTree = "<group>"; };
 		75C960EF1FAF023100EDB6D4 /* RYFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYFirstViewController.h; sourceTree = "<group>"; };
 		75C960F01FAF023100EDB6D4 /* RYFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYFirstViewController.m; sourceTree = "<group>"; };
-		75C960F21FAF023C00EDB6D4 /* RYSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYSecondViewController.h; sourceTree = "<group>"; };
-		75C960F31FAF023C00EDB6D4 /* RYSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYSecondViewController.m; sourceTree = "<group>"; };
-		75C960F51FAF024A00EDB6D4 /* RYThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYThirdViewController.h; sourceTree = "<group>"; };
-		75C960F61FAF024A00EDB6D4 /* RYThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYThirdViewController.m; sourceTree = "<group>"; };
+		75C960F51FAF024A00EDB6D4 /* RYAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYAccountViewController.h; sourceTree = "<group>"; };
+		75C960F61FAF024A00EDB6D4 /* RYAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAccountViewController.m; sourceTree = "<group>"; };
 		75C960FC1FAF09B000EDB6D4 /* RYLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLiveViewController.h; sourceTree = "<group>"; };
 		75C960FD1FAF09B000EDB6D4 /* RYLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLiveViewController.m; sourceTree = "<group>"; };
 		75C960FF1FAF0A2000EDB6D4 /* RYLiveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLiveManager.h; sourceTree = "<group>"; };
 		75C961001FAF0A2000EDB6D4 /* RYLiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLiveManager.m; sourceTree = "<group>"; };
-		75C961091FAF0F4200EDB6D4 /* RYUserDefaultManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYUserDefaultManager.h; sourceTree = "<group>"; };
-		75C9610A1FAF0F4200EDB6D4 /* RYUserDefaultManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYUserDefaultManager.m; sourceTree = "<group>"; };
-		75C9610C1FAF3B7D00EDB6D4 /* RyeagleKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RyeagleKit.h; sourceTree = "<group>"; };
-		75C9610D1FAF3BD800EDB6D4 /* globalLive.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globalLive.pch; sourceTree = "<group>"; };
-		75C9610E1FAF3C4D00EDB6D4 /* GLUserDefaultManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserDefaultManager.h; sourceTree = "<group>"; };
-		75C9610F1FAF3C4D00EDB6D4 /* GLUserDefaultManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserDefaultManager.m; sourceTree = "<group>"; };
-		75C961131FAF3D0E00EDB6D4 /* RYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYMacro.h; sourceTree = "<group>"; };
-		75EF70BA1FB553630046823A /* TXLiteAVSDK_Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_Player.framework; sourceTree = "<group>"; };
 		75EF70BC1FB5539D0046823A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		75EF70BE1FB553A50046823A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		75EF70BF1FB553AA0046823A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -96,8 +90,6 @@
 		75EF70D01FB588D90046823A /* liveUrlConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = liveUrlConfig.plist; sourceTree = "<group>"; };
 		75EF70D21FB58AF30046823A /* GLLiveUrlConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLiveUrlConfig.h; sourceTree = "<group>"; };
 		75EF70D31FB58AF30046823A /* GLLiveUrlConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLiveUrlConfig.m; sourceTree = "<group>"; };
-		75EF70D51FB58C350046823A /* NSDictionary+Ryeagle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ryeagle.h"; sourceTree = "<group>"; };
-		75EF70D61FB58C350046823A /* NSDictionary+Ryeagle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ryeagle.m"; sourceTree = "<group>"; };
 		75F833101FB3045A00830514 /* GLLiveProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLiveProtocol.h; sourceTree = "<group>"; };
 		7FC5705F51C88C896D2ACA86 /* Pods-globalLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-globalLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-globalLive/Pods-globalLive.release.xcconfig"; sourceTree = "<group>"; };
 		8AC5F65FD3BEE0BB25293B8E /* Pods_globalLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_globalLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,9 +107,9 @@
 				75EF70C81FB553F20046823A /* CoreMedia.framework in Frameworks */,
 				75EF70C41FB553DC0046823A /* VideoToolbox.framework in Frameworks */,
 				75EF70C01FB553B20046823A /* CoreTelephony.framework in Frameworks */,
+				756FF0821FBEC20700BB2A69 /* TXLiteAVSDK_Player.framework in Frameworks */,
 				75EF70C61FB553E40046823A /* libz.tbd in Frameworks */,
 				9645EAB40960CF4941775F10 /* Pods_globalLive.framework in Frameworks */,
-				75EF70BB1FB553630046823A /* TXLiteAVSDK_Player.framework in Frameworks */,
 				75EF70C21FB553BC0046823A /* libiconv.tbd in Frameworks */,
 				75EF70CE1FB5541C0046823A /* libstdc++.tbd in Frameworks */,
 			);
@@ -138,14 +130,25 @@
 		7566BF811FB0382B002F5843 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				7566BF821FB03851002F5843 /* UIView+Ryeagle.h */,
-				7566BF831FB03851002F5843 /* UIView+Ryeagle.m */,
-				7566BF881FB07D19002F5843 /* UIWindow+Ryeagle.h */,
-				7566BF891FB07D19002F5843 /* UIWindow+Ryeagle.m */,
-				75EF70D51FB58C350046823A /* NSDictionary+Ryeagle.h */,
-				75EF70D61FB58C350046823A /* NSDictionary+Ryeagle.m */,
+				756FF0711FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.h */,
+				756FF0721FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.m */,
+				756FF0741FBEBE5800BB2A69 /* UIWindow+GlobalLive.h */,
+				756FF0751FBEBE5800BB2A69 /* UIWindow+GlobalLive.m */,
+				756FF0771FBEBE8400BB2A69 /* UIView+GLobalLive.h */,
+				756FF0781FBEBE8400BB2A69 /* UIView+GLobalLive.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		759050F11FBE7CDC0003E1D4 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75B2A2C91FAEF23C001280D1 /* Assets.xcassets */,
+				75B2A2CE1FAEF23C001280D1 /* Info.plist */,
+				75B2A2CF1FAEF23C001280D1 /* main.m */,
+				756FF0841FBEC25D00BB2A69 /* globalLive.pch */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		75B2A2B41FAEF23C001280D1 = {
@@ -169,131 +172,96 @@
 		75B2A2BF1FAEF23C001280D1 /* globalLive */ = {
 			isa = PBXGroup;
 			children = (
-				75B2A2D71FAEF8A6001280D1 /* GlobalLive */,
-				75B2A2C01FAEF23C001280D1 /* AppDelegate.h */,
-				75B2A2C11FAEF23C001280D1 /* AppDelegate.m */,
-				75C9610D1FAF3BD800EDB6D4 /* globalLive.pch */,
-				75B2A2C91FAEF23C001280D1 /* Assets.xcassets */,
-				75B2A2CB1FAEF23C001280D1 /* LaunchScreen.storyboard */,
-				75B2A2CE1FAEF23C001280D1 /* Info.plist */,
-				75B2A2CF1FAEF23C001280D1 /* main.m */,
+				75B2A2D71FAEF8A6001280D1 /* Classes */,
 			);
 			path = globalLive;
 			sourceTree = "<group>";
 		};
-		75B2A2D71FAEF8A6001280D1 /* GlobalLive */ = {
+		75B2A2D71FAEF8A6001280D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				75C961071FAF0E8900EDB6D4 /* RyeagleKit */,
-				75B2A2D81FAEF8A6001280D1 /* Extand */,
-				75B2A2DE1FAEF8A6001280D1 /* Functions */,
-				75B2A2E21FAEF8A7001280D1 /* Vender */,
+				756FF06A1FBE7E8600BB2A69 /* AppDelegate.h */,
+				756FF0691FBE7E8600BB2A69 /* AppDelegate.m */,
+				75B2A2D81FAEF8A6001280D1 /* GlobalLiveKit */,
+				75B2A2DE1FAEF8A6001280D1 /* Sections */,
+				75B2A2E21FAEF8A7001280D1 /* Venders */,
+				759050F11FBE7CDC0003E1D4 /* SupportFiles */,
 			);
-			path = GlobalLive;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		75B2A2D81FAEF8A6001280D1 /* Extand */ = {
+		75B2A2D81FAEF8A6001280D1 /* GlobalLiveKit */ = {
 			isa = PBXGroup;
 			children = (
-				750B00D81FB45BFA00409317 /* GLExtend.h */,
-				75B2A2D91FAEF8A6001280D1 /* Category */,
-				75B2A2DA1FAEF8A6001280D1 /* Constants */,
-				75B2A2DB1FAEF8A6001280D1 /* DataBase */,
-				75B2A2DC1FAEF8A6001280D1 /* Network */,
+				756FF0851FBEC71800BB2A69 /* GlobalLiveKit.h */,
+				7566BF811FB0382B002F5843 /* Category */,
+				75EF70CF1FB588BB0046823A /* Config */,
+				75B2A2DA1FAEF8A6001280D1 /* Macro */,
 				75B2A2DD1FAEF8A6001280D1 /* Utilities */,
 			);
-			path = Extand;
+			path = GlobalLiveKit;
 			sourceTree = "<group>";
 		};
-		75B2A2D91FAEF8A6001280D1 /* Category */ = {
+		75B2A2DA1FAEF8A6001280D1 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				75980A151FBEC81D00E8A8AA /* GLMacro.h */,
+				75980A141FBEC7FE00E8A8AA /* GLColorMacro.h */,
 			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		75B2A2DA1FAEF8A6001280D1 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		75B2A2DB1FAEF8A6001280D1 /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
-			sourceTree = "<group>";
-		};
-		75B2A2DC1FAEF8A6001280D1 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		75B2A2DD1FAEF8A6001280D1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				75C9610E1FAF3C4D00EDB6D4 /* GLUserDefaultManager.h */,
-				75C9610F1FAF3C4D00EDB6D4 /* GLUserDefaultManager.m */,
+				756FF07B1FBEC00100BB2A69 /* GLBaseUserDefault.h */,
+				756FF07C1FBEC00100BB2A69 /* GLBaseUserDefault.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		75B2A2DE1FAEF8A6001280D1 /* Functions */ = {
+		75B2A2DE1FAEF8A6001280D1 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
 				7566BF8B1FB07F46002F5843 /* GLFunctions.h */,
 				75C960F81FAF03C400EDB6D4 /* Live */,
 				75B2A2E41FAEF8E6001280D1 /* Main */,
-				75B2A2DF1FAEF8A6001280D1 /* FirstTab */,
-				75B2A2E01FAEF8A6001280D1 /* SecondTab */,
-				75B2A2E11FAEF8A6001280D1 /* ThirdTab */,
+				75B2A2DF1FAEF8A6001280D1 /* Home */,
+				75B2A2E11FAEF8A6001280D1 /* Account */,
 			);
-			path = Functions;
+			path = Sections;
 			sourceTree = "<group>";
 		};
-		75B2A2DF1FAEF8A6001280D1 /* FirstTab */ = {
+		75B2A2DF1FAEF8A6001280D1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				75C960EF1FAF023100EDB6D4 /* RYFirstViewController.h */,
 				75C960F01FAF023100EDB6D4 /* RYFirstViewController.m */,
 			);
-			path = FirstTab;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		75B2A2E01FAEF8A6001280D1 /* SecondTab */ = {
+		75B2A2E11FAEF8A6001280D1 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				75C960F21FAF023C00EDB6D4 /* RYSecondViewController.h */,
-				75C960F31FAF023C00EDB6D4 /* RYSecondViewController.m */,
+				75C960F51FAF024A00EDB6D4 /* RYAccountViewController.h */,
+				75C960F61FAF024A00EDB6D4 /* RYAccountViewController.m */,
 			);
-			path = SecondTab;
+			path = Account;
 			sourceTree = "<group>";
 		};
-		75B2A2E11FAEF8A6001280D1 /* ThirdTab */ = {
-			isa = PBXGroup;
-			children = (
-				75C960F51FAF024A00EDB6D4 /* RYThirdViewController.h */,
-				75C960F61FAF024A00EDB6D4 /* RYThirdViewController.m */,
-			);
-			path = ThirdTab;
-			sourceTree = "<group>";
-		};
-		75B2A2E21FAEF8A7001280D1 /* Vender */ = {
+		75B2A2E21FAEF8A7001280D1 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
 				75B2A2E31FAEF8A7001280D1 /* TXLiveSDK */,
 			);
-			path = Vender;
+			path = Venders;
 			sourceTree = "<group>";
 		};
 		75B2A2E31FAEF8A7001280D1 /* TXLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				75EF70BA1FB553630046823A /* TXLiteAVSDK_Player.framework */,
+				756FF0811FBEC20700BB2A69 /* TXLiteAVSDK_Player.framework */,
 			);
 			path = TXLiveSDK;
 			sourceTree = "<group>";
@@ -310,7 +278,6 @@
 		75C960F81FAF03C400EDB6D4 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				75EF70CF1FB588BB0046823A /* Config */,
 				75F8330F1FB3043000830514 /* Protocol */,
 				75C960F91FAF099E00EDB6D4 /* ViewControllers */,
 				75C960FA1FAF099E00EDB6D4 /* Views */,
@@ -350,26 +317,6 @@
 				75C961001FAF0A2000EDB6D4 /* RYLiveManager.m */,
 			);
 			path = Mangaer;
-			sourceTree = "<group>";
-		};
-		75C961071FAF0E8900EDB6D4 /* RyeagleKit */ = {
-			isa = PBXGroup;
-			children = (
-				75C9610C1FAF3B7D00EDB6D4 /* RyeagleKit.h */,
-				75C961131FAF3D0E00EDB6D4 /* RYMacro.h */,
-				7566BF811FB0382B002F5843 /* Category */,
-				75C961081FAF0ECE00EDB6D4 /* Assistants */,
-			);
-			path = RyeagleKit;
-			sourceTree = "<group>";
-		};
-		75C961081FAF0ECE00EDB6D4 /* Assistants */ = {
-			isa = PBXGroup;
-			children = (
-				75C961091FAF0F4200EDB6D4 /* RYUserDefaultManager.h */,
-				75C9610A1FAF0F4200EDB6D4 /* RYUserDefaultManager.m */,
-			);
-			path = Assistants;
 			sourceTree = "<group>";
 		};
 		75EF70CF1FB588BB0046823A /* Config */ = {
@@ -470,7 +417,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B2A2CD1FAEF23C001280D1 /* LaunchScreen.storyboard in Resources */,
 				75EF70D11FB588D90046823A /* liveUrlConfig.plist in Resources */,
 				75B2A2CA1FAEF23C001280D1 /* Assets.xcassets in Resources */,
 			);
@@ -531,39 +477,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756FF07D1FBEC00100BB2A69 /* GLBaseUserDefault.m in Sources */,
 				75C961011FAF0A2000EDB6D4 /* RYLiveManager.m in Sources */,
-				75C9610B1FAF0F4200EDB6D4 /* RYUserDefaultManager.m in Sources */,
+				756FF06B1FBE7E8600BB2A69 /* AppDelegate.m in Sources */,
 				75C960F11FAF023100EDB6D4 /* RYFirstViewController.m in Sources */,
 				7566BF7F1FB0366D002F5843 /* GLLivePlayView.m in Sources */,
 				750B00D71FB43C2400409317 /* GLLiveWindow.m in Sources */,
-				75C961101FAF3C4D00EDB6D4 /* GLUserDefaultManager.m in Sources */,
+				756FF0761FBEBE5800BB2A69 /* UIWindow+GlobalLive.m in Sources */,
 				75B2A2D01FAEF23C001280D1 /* main.m in Sources */,
 				75C960EE1FAF014800EDB6D4 /* RYMainTabVC.m in Sources */,
-				75EF70D71FB58C350046823A /* NSDictionary+Ryeagle.m in Sources */,
-				75C960F71FAF024A00EDB6D4 /* RYThirdViewController.m in Sources */,
-				75C960F41FAF023C00EDB6D4 /* RYSecondViewController.m in Sources */,
+				75C960F71FAF024A00EDB6D4 /* RYAccountViewController.m in Sources */,
+				756FF0791FBEBE8400BB2A69 /* UIView+GLobalLive.m in Sources */,
+				756FF0731FBEBE3F00BB2A69 /* NSDictionary+GlobalLive.m in Sources */,
 				7566BF7C1FB0019B002F5843 /* GLRotateView.m in Sources */,
 				75C960FE1FAF09B000EDB6D4 /* RYLiveViewController.m in Sources */,
-				7566BF841FB03851002F5843 /* UIView+Ryeagle.m in Sources */,
-				7566BF8A1FB07D19002F5843 /* UIWindow+Ryeagle.m in Sources */,
 				75EF70D41FB58AF30046823A /* GLLiveUrlConfig.m in Sources */,
-				75B2A2C21FAEF23C001280D1 /* AppDelegate.m in Sources */,
 				7566BF871FB040E3002F5843 /* GLPlayControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		75B2A2CB1FAEF23C001280D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75B2A2CC1FAEF23C001280D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		75B2A2D11FAEF23C001280D1 /* Debug */ = {
@@ -675,14 +608,17 @@
 			baseConfigurationReference = 9E2E55E6614F2D6AE4EA6B47 /* Pods-globalLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L46G99983Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/globalLive/GlobalLive/Vender/TXLiveSDK",
+					"$(PROJECT_DIR)/globalLive/Classes/Vender/TXLiveSDK",
+					"$(PROJECT_DIR)/globalLive/Classes/Venders/TXLiveSDK",
 				);
-				GCC_PREFIX_HEADER = globalLive/globalLive.pch;
-				INFOPLIST_FILE = globalLive/Info.plist;
+				GCC_PREFIX_HEADER = globalLive/Classes/SupportFiles/globalLive.pch;
+				INFOPLIST_FILE = globalLive/Classes/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfinite.globalLive;
@@ -696,14 +632,17 @@
 			baseConfigurationReference = 7FC5705F51C88C896D2ACA86 /* Pods-globalLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L46G99983Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/globalLive/GlobalLive/Vender/TXLiveSDK",
+					"$(PROJECT_DIR)/globalLive/Classes/Vender/TXLiveSDK",
+					"$(PROJECT_DIR)/globalLive/Classes/Venders/TXLiveSDK",
 				);
-				GCC_PREFIX_HEADER = globalLive/globalLive.pch;
-				INFOPLIST_FILE = globalLive/Info.plist;
+				GCC_PREFIX_HEADER = globalLive/Classes/SupportFiles/globalLive.pch;
+				INFOPLIST_FILE = globalLive/Classes/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfinite.globalLive;

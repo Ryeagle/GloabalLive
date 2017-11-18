@@ -56,7 +56,7 @@ fastlane/screenshots
 fastlane/test_output
 
 # Large Files
-globalLive/GlobalLive/Vender/TXLiveSDK/TXLiteAVSDK_Player.framework/TXLiteAVSDK_Player
+globalLive/Classes/Venders/TXLiveSDK/TXLiteAVSDK_Player.framework/TXLiteAVSDK_Player
 
 # Code Injection
 #
